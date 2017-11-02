@@ -5,9 +5,12 @@
     <title>Lecteur multimédia</title>
     <script type="text/javascript" src="lecteur_script.js"></script>
 </head>
-
+<!--http://podcasts.cnn.net/cnn/big/cnn10/2017/10/15/ten-1016.cnn_ios_1240.mp4
+    https://d1235ca2z646oc.cloudfront.net/videos/processed/1385/clouds_over_the_mountain_hd_stock_video.mp4.webm
+-->
 <body>
-    <video id="our-video" src="http://podcasts.cnn.net/cnn/big/cnn10/2017/10/15/ten-1016.cnn_ios_1240.mp4" autoplay></video>
+    <video id="our-video" src="https://d1235ca2z646oc.cloudfront.net/videos/processed/1385/clouds_over_the_mountain_hd_stock_video.mp4.webm
+" autoplay></video>
     <!--<button id="lecture"><img src="http://www.clipartbest.com/cliparts/jix/okB/jixokBo4T.png"><button/>-->
     <div id="buttonbar">
         <button id="restart">[]</button>
@@ -28,6 +31,10 @@
         <button class="descendreLien">Descendre</button>
     </div>
     <div id="liste"></div>
+    <div id="ajoutFlux">
+        <input id="lienFlux" type="text"></input>
+        <button id="btnAjoutFlux">Ajouter un flux</button>
+    </div>
 </body>
 
 </html>
